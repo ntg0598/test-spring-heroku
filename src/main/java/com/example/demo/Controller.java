@@ -13,6 +13,6 @@ public class Controller {
 
     @GetMapping
     public String redirectHelloWorld() {
-        return "Hello World";
+        return "Hello World --- Hello Heroku";
     }
 }
